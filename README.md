@@ -2,7 +2,7 @@
 
 A highly customizable "About this Mac" dialog for Linux systems, now rewritten in Rust with GTK4.
 
-**Version:** 0.3.0  
+**Version:** 0.9.0
 **Author:** Kamil 'Novik' Nowicki <kamil.nowicki@h4b.uk>  
 **License:** GPL-3.0-or-later
 
@@ -197,9 +197,7 @@ The application stores configuration in JSON format at:
 
 # Changelog
 ```
-v0.2 (04/02/2021)
-- System information generation done.
-
-v0.1 (02/02/2021)
-- Initial build.
+v0.9.0 
+- Removed dependency on configuration files; automatic system information detection.
+- System-specific logo with adjustable sizing.
 ```
