@@ -10,7 +10,7 @@ A highly customizable "About this Mac" dialog for Linux systems, now rewritten i
 
 This is a complete rewrite of the original AboutThisMc project in Rust using GTK4. It provides a macOS-style "About this Mac" window for Linux systems with the same visual appearance and functionality, but with improved performance, memory safety, and modern GTK4 features.
 
-### Key Improvements in v0.3.0
+### Key Improvements in v0.9.0
 - **Complete rewrite in Rust** for better performance and memory safety
 - **GTK4 support** with modern UI components
 - **Graphical configuration wizard** - no more terminal-based setup!
