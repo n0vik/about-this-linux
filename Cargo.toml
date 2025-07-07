@@ -1,0 +1,23 @@
+[package]
+name = "about-this-linux"
+version = "0.9.0"
+edition = "2021"
+authors = ["Kamil 'Novik' Nowicki <kamil.nowicki@h4b.uk>"]
+description = "A customizable 'About this Mac' dialog for Linux systems"
+license = "GPL-3.0-or-later"
+homepage = "https://github.com/n0vik/about-this-linux"
+repository = "https://github.com/n0vik/about-this-linux.git"
+
+[dependencies]
+gtk = { version = "0.7", package = "gtk4" }
+gdk-pixbuf = "0.18"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+clap = { version = "4.0", features = ["derive"] }
+dirs = "5.0"
+regex = "1.0"
+anyhow = "1.0"
+tokio = { version = "1.0", features = ["full"] }
+
+[build-dependencies]
+glib-build-tools = "0.18"
